@@ -57,4 +57,19 @@ a:hover {
   margin-top: -1px;
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(10px);
+
+  min-height: 600px;
+  position: relative;
+}
+
+/* 미니미 디자인 */
+.minimi {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  width: 200px;
+  height: 300px;
+  border-radius: 50%;
+  background: no-repeat 50% / contain;
+  transition: 1s;
 }
